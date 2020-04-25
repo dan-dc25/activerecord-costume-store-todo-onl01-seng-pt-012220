@@ -1,7 +1,7 @@
 class Costume < ActiveRecord::Migration[5.2]
 
   def change
-    create_table costumes |c|
+    create_table :costumes |c|
       c.string :name
       c.float :price
       c.integer :size
